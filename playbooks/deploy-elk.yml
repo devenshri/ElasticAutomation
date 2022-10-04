@@ -1,0 +1,6 @@
+---
+#This playbook will deploy elk
+- hosts: elk
+  become: True
+  roles:
+  - ../roles/java
